@@ -13,15 +13,6 @@ import FrameNavbar from "./FrameNavbar";
 // Props for the website frame
 interface FrameProps {
     children: ReactNode;
-    hero: {
-        title: string;
-        subtitle: string;
-        backgroundImage: string;
-        button?: {
-            text: string;
-            link: string;
-        };
-    };
 }
 
 // WebsiteFrame component

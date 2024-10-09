@@ -23,7 +23,6 @@ const FrameNavbar: React.FC<FrameProps> = () => {
                 <Stack
                     direction={"column"}
                     spacing={5}
-                    divider={<StackDivider />}
                 >
                     {Navbar.map((item, index) => (
                         <ChakraLink
