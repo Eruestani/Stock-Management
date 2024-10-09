@@ -2,7 +2,7 @@ import { Heading, Spacer, Stack, Text } from "@chakra-ui/react";
 
 interface PageProps {}
 
-const MainPage: React.FC<PageProps> = () => {
+const HomePage: React.FC<PageProps> = () => {
     let dateTime = new Date();
     const dateOptions = {
         weekday: "long" as const,
@@ -44,4 +44,4 @@ const MainPage: React.FC<PageProps> = () => {
     );
 };
 
-export default MainPage;
+export default HomePage;

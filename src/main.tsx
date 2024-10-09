@@ -2,6 +2,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
+import createStore from "react-auth-kit/createStore";
+import AuthProvider from "react-auth-kit";
+
+const store = createStore({
+    authName: "_auth",
+    authType: "cookie",
+    cookieDomain: window.location.hostname,
+    cookieSecure: window.location.protocol === "https:",
+});
+
 // Chakra UI imports
 import { ChakraProvider, extendTheme, type ThemeConfig } from "@chakra-ui/react";
 
@@ -59,7 +69,9 @@ const theme = extendTheme({
 ReactDOM.createRoot(document.getElementById("root")!).render(
     <React.StrictMode>
         <ChakraProvider theme={theme}>
-            <App />
+            <AuthProvider store={store}>
+                <App />
+            </AuthProvider>
         </ChakraProvider>
     </React.StrictMode>
 );

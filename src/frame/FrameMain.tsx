@@ -14,8 +14,7 @@ const FrameMain: React.FC<FrameProps> = (propContent) => {
                 height={"100%"}
             >
                 <Container
-                    maxWidth={"80%"}
-                    padding={2}
+                    maxWidth={"90%"}
                     paddingY={10}
                 >
                     {propContent.children}
