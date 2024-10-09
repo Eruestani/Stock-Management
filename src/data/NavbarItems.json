@@ -1,0 +1,34 @@
+{
+    "items": [
+        {
+            "title": "Home",
+            "url": "/",
+            "icon": "FaDragon"
+        },
+        {
+            "title": "Products",
+            "url": "/products",
+            "icon": "FaDragon"
+        },
+        {
+            "title": "Stock",
+            "url": "/stock",
+            "icon": "FaDragon"
+        },
+        {
+            "title": "Sales",
+            "url": "/sales",
+            "icon": "FaDragon"
+        },
+        {
+            "title": "Reports",
+            "url": "/reports",
+            "icon": "FaDragon"
+        },
+        {
+            "title": "Settings",
+            "url": "/settings",
+            "icon": "FaDragon"
+        }
+    ]
+}
