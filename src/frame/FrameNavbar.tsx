@@ -1,6 +1,6 @@
 import { Link as ReactRouterLink } from "react-router-dom";
 
-import { Container, Icon, Link as ChakraLink, Stack, StackDivider, Text } from "@chakra-ui/react";
+import { Container, Icon, Link as ChakraLink, Stack, Text } from "@chakra-ui/react";
 
 import NavbarItems from "../data/NavbarItems.json";
 
